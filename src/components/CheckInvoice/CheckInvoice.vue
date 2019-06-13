@@ -4,9 +4,7 @@
             <h3>审核开票</h3>
             <router-link to='/' > 返回Home</router-link>
         </div>
-        <div>
-            <mt-button type="primary">测试按钮</mt-button>
-        </div>
+      
         <div>
             <mt-index-list>
                 <mt-index-section index="A">
@@ -38,10 +36,9 @@
     </div>
 </template>
 <script>
-import { Button, IndexList, IndexSection, Cell } from "mint-ui";
+import { IndexList, IndexSection, Cell } from "mint-ui";
 export default {
   components: {
-    MtButton: Button,
     MtIndexList: IndexList,
     MtIndexSection: IndexSection,
     MtCell: Cell
