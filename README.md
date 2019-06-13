@@ -1,2 +1,3 @@
 # ele-invoice
-ele-invoice(init-project)
+ 1 yarn 
+ 2 yarn start 
