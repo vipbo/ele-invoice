@@ -1,7 +1,12 @@
 <template>
     <div class="home">
        <div class="wrap">
-          <manual-invoice class="one"/>
+         <div class="one">
+           <div>
+              <i class="iconfont iconshenfenzheng" ></i>
+           </div>
+            <router-link to='/manualInvoice' > 手工开票</router-link>
+         </div>
           <div>
             <router-link to='/scanInvoice' > 扫码开票</router-link>
           </div>
@@ -30,7 +35,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     div {
-      width: 10vw;
+      width: 20vw;
       height: 10vw;
       border: 1px solid #cccccc;
       display: flex;
